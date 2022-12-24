@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>University Web Design</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="./about">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+ <script src="https://kit.fontawesome.com/3f314a4150.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <!-- ------Courses------- -->
+  <section class="sub-header">
+    <nav>
+     <a href="index.html"><img src="./Images/logo neww.jpg"></a>
+     <div class="nav-links" id="navLinks">
+      <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+      <ul>
+       <li><a href="index.html">HOME</a></li>
+       <li><a href="about.html">ABOUT</a></li>
+       <li><a href="course.html">COURSE</a></li>
+       <li><a href="blog.html">BLOG</a></li>
+       <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+     </div>
+     <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Courses</h1>
+  </section>
+   <!-- ----Courses------ -->
+   <section class="course">
+    <h1>Courses We Offer</h1>
+    <p>faculties or other centres, and a Department for Continuing Education, which offers courses across a range of subject areas.</p>
+   <div class="row">
+     <div class="course-col">
+       <h3>Intermediate</h3>
+       <p>This course will prepare you to read such texts in their original language as well as explore the very grammar and deeper meanings of the language. </p>
+     </div>
+
+     <div class="course-col">
+      <h3>Degree</h3>
+      <p>We offer degree programmes at both undergraduate and postgraduate levels, covering a range of subject areas.</p>
+    </div>
+
+    <div class="course-col">
+     <h3>Post Graduation</h3>
+     <p>The Teach First Leadership Development Programme combines teacher training and a Post Graduate Certificate in Education (PGCE) with one-to-one coaching</p>
+   </div>
+   </div>
+</section>
+
+<!---------Facilities--------->
+<section class="facilities">
+ <h1>Our Facilities</h1>
+ <p>Our modern facilities provide Kellogg members with calming spaces in which to study and work, as well as social spaces where they can relax and enjoy locally.</p>
+ <div class="row">
+  <div class="facilities-col">
+   <img src="./Images/library.jpg" >
+   <h3>Studford Library</h3>
+   <p>The Old Library is one of the oldest libraries in the world. It has three historic reading rooms: the Lower Reading Room, the Upper Reading Room and the Duke part</p>
+  </div>
+
+  <div class="facilities-col">
+   <img src="./Images/musical.jpg" >
+   <h3>Best Musical Course</h3>
+   <p>WHILE the study of musical instruments' is unified within the field of organology,2 these objects of material culture are also studied within areas such.</p>
+  </div>
+
+  <div class="facilities-col">
+   <img src="./Images/cafeteria.jpg" >
+   <h3>Tasty and Healthy Food</h3>
+   <p>Cafeteria Information. Facilities. Wifi enabled ideal for internet browsing from a mix of seating options. Accessibility. Fully accessible. Availability.</p>
+  </div>
+ </div>
+</section>
+<!--------End of Facilities----->
+
+
+
+
+
+
+
+
+<!------Footer----->
+<section class="footer">
+   <h4>About Us</h4>
+   <p>Studford is an independent and self-governing institution consisting of the University, <br> its divisions, departments and faculties, and the colleges.</p>
+   <div class="icons">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
+   </div>
+   <p>Made with <i class="fa-solid fa-heart"></i> by FOLAFUNMI</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!-- ------JAVASCRIPT for toggle menu----- -->
+ <script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+   navLinks.style.right = "0";
+  }
+  function hideMenu(){
+   navLinks.style.right = "-200px";
+  }
+ </script>
+</body>
+</html>
